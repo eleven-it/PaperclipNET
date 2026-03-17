@@ -33,3 +33,9 @@ Usar nginx como única superficie expuesta y mantener Paperclip detrás en `127.
 ## Notas
 
 Esta configuración es una referencia inicial. Debe adaptarse con dominio, certificados y política real de exposición antes de usarse en producción.
+
+## Estado aplicado en host actual
+
+- Paperclip quedó en `127.0.0.1:3100`
+- nginx quedó publicado en `:80` como reverse proxy hacia `127.0.0.1:3100`
+- validación funcional realizada el 2026-03-17
