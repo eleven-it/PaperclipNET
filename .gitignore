@@ -1,0 +1,25 @@
+# Runtime / state
+runtime/
+*.log
+
+# Secrets
+.env
+.env.*
+secrets/
+keys/
+*.pem
+*.key
+
+# DB / backups
+*.sql
+*.dump
+*.sqlite
+*.db
+
+# Node
+node_modules/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/

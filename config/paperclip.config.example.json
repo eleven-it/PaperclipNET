@@ -1,0 +1,47 @@
+{
+  "$meta": {
+    "version": 1,
+    "source": "PaperclipNET template"
+  },
+  "database": {
+    "mode": "embedded-postgres",
+    "embeddedPostgresDataDir": "./runtime/db",
+    "embeddedPostgresPort": 54329,
+    "backup": {
+      "enabled": true,
+      "intervalMinutes": 60,
+      "retentionDays": 30,
+      "dir": "./runtime/backups"
+    }
+  },
+  "logging": {
+    "mode": "file",
+    "logDir": "./runtime/logs"
+  },
+  "server": {
+    "deploymentMode": "authenticated",
+    "exposure": "private",
+    "host": "127.0.0.1",
+    "port": 3100,
+    "allowedHostnames": [],
+    "serveUi": true
+  },
+  "auth": {
+    "baseUrlMode": "explicit",
+    "disableSignUp": false,
+    "publicBaseUrl": "https://paperclip.example.com"
+  },
+  "storage": {
+    "provider": "local_disk",
+    "localDisk": {
+      "baseDir": "./runtime/storage"
+    }
+  },
+  "secrets": {
+    "provider": "local_encrypted",
+    "strictMode": false,
+    "localEncrypted": {
+      "keyFilePath": "./runtime/secrets/master.key"
+    }
+  }
+}
