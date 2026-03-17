@@ -18,6 +18,14 @@ La instancia actual carece de `publicBaseUrl` definitiva y no debe considerarse 
 - `publicBaseUrl` explícita
 - estrategia HTTP→HTTPS
 - coherencia entre nginx y Paperclip
+- criterios de certificado y terminación TLS
+
+## Restricciones
+
+1. no se publicará como despliegue final sin dominio o subdominio definido
+2. `auth.baseUrlMode` deberá quedar en `explicit`
+3. `auth.publicBaseUrl` deberá coincidir con la URL servida por nginx
+4. exposición pública final requerirá HTTPS
 
 ## Criterios de aceptación
 
@@ -25,3 +33,8 @@ La instancia actual carece de `publicBaseUrl` definitiva y no debe considerarse 
 - Paperclip usa `baseUrlMode=explicit`
 - existe estrategia documentada de HTTPS
 - existe test plan asociado
+- existe evidencia de coherencia entre proxy y base URL al implementar
+
+## Dependencia pendiente
+
+Esta spec no puede cerrarse completamente hasta que se defina el dominio/subdominio final del servicio.

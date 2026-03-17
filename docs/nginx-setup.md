@@ -38,4 +38,5 @@ Esta configuración es una referencia inicial. Debe adaptarse con dominio, certi
 
 - Paperclip quedó en `127.0.0.1:3100`
 - nginx quedó publicado en `:80` como reverse proxy hacia `127.0.0.1:3100`
+- se aplicó hardening básico con `limit_req` y cabeceras mínimas
 - validación funcional realizada el 2026-03-17
