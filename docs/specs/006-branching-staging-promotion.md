@@ -2,7 +2,7 @@
 
 ## Estado
 
-Draft
+Done
 
 ## Objetivo
 
@@ -20,3 +20,12 @@ Definir cómo se usa `Desarrollo`, `Staging` y la línea base para promocionar c
 - existe política clara por rama
 - existe test plan asociado
 - staging tiene propósito verificable
+
+## Cierre de spec
+
+La spec se considera cerrada porque:
+
+- el repositorio opera con `1.0`, `Desarrollo` y `Staging`
+- existe documentación de promoción, release, staging y rollback
+- existe checklist de promoción a staging
+- la trazabilidad entre fases y ramas quedó documentada

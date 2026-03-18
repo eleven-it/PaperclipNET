@@ -2,7 +2,7 @@
 
 ## Estado
 
-Draft
+Done
 
 ## Objetivo
 
@@ -20,3 +20,11 @@ Definir una fase de seguridad posterior al despliegue base para reducir riesgo f
 - existe estrategia ampliada de mitigación
 - existe test plan asociado
 - quedan separadas las medidas básicas de las avanzadas
+
+## Cierre de spec
+
+La spec se considera cerrada porque:
+
+- existe hardening básico ya aplicado en nginx (`limit_req`, cabeceras mínimas)
+- existe documentación de mitigación ampliada y criterios para fases posteriores
+- quedó explícita la separación entre controles básicos ya implementados y defensas avanzadas futuras (por ejemplo fail2ban/CDN/WAF)
