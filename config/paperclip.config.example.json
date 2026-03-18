@@ -29,7 +29,7 @@
   "auth": {
     "baseUrlMode": "explicit",
     "disableSignUp": false,
-    "publicBaseUrl": "https://paperclip.example.com"
+    "publicBaseUrl": "https://busone.estrategiasdenegocios.ar"
   },
   "storage": {
     "provider": "local_disk",

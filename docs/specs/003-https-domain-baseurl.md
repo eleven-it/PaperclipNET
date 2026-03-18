@@ -38,3 +38,13 @@ La instancia actual carece de `publicBaseUrl` definitiva y no debe considerarse 
 ## Dependencia pendiente
 
 Esta spec no puede cerrarse completamente hasta que se defina el dominio/subdominio final del servicio.
+
+
+## Implementación observada
+
+- Dominio final definido: `https://busone.estrategiasdenegocios.ar`
+- `auth.baseUrlMode` quedó en `explicit`
+- `auth.publicBaseUrl` quedó en `https://busone.estrategiasdenegocios.ar`
+- La terminación TLS parece ocurrir aguas arriba o en una capa no reflejada por el listener local `:443`
+- El runtime local de Paperclip quedó recuperado en `127.0.0.1:3001`
+- Queda pendiente corregir el proxy público final que hoy devuelve `502 Bad Gateway`
