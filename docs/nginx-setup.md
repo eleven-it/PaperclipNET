@@ -37,7 +37,7 @@ Esta configuración es una referencia inicial. Debe adaptarse con dominio, certi
 ## Estado aplicado en host actual
 
 - Paperclip quedó en `127.0.0.1:3100`
-- nginx quedó publicado en `:80` como reverse proxy hacia `127.0.0.1:3001`
+- nginx quedó publicado en `:80` como reverse proxy hacia `127.0.0.1:3002`
 - se aplicó hardening básico con `limit_req` y cabeceras mínimas
-- el runtime actual de Paperclip quedó estabilizado en `127.0.0.1:3001`
+- el runtime actual de Paperclip quedó estabilizado en `127.0.0.1:3002`
 - validación funcional inicial realizada el 2026-03-17 y reconciliada con el estado real el 2026-03-18

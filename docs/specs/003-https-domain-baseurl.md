@@ -46,5 +46,5 @@ Esta spec no puede cerrarse completamente hasta que se defina el dominio/subdomi
 - `auth.baseUrlMode` quedó en `explicit`
 - `auth.publicBaseUrl` quedó en `https://busone.estrategiasdenegocios.ar`
 - La terminación TLS parece ocurrir aguas arriba o en una capa no reflejada por el listener local `:443`
-- El runtime local de Paperclip quedó recuperado en `127.0.0.1:3001`
+- El runtime local de Paperclip quedó recuperado en `127.0.0.1:3002`
 - Queda pendiente corregir el proxy público final que hoy devuelve `502 Bad Gateway`

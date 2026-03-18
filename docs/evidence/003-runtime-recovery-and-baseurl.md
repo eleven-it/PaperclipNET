@@ -13,8 +13,8 @@
 - se definió `auth.baseUrlMode = explicit`
 - se definió `auth.publicBaseUrl = https://busone.estrategiasdenegocios.ar`
 - se recuperó el PostgreSQL embebido en `127.0.0.1:54329`
-- se recuperó Paperclip en `127.0.0.1:3001`
-- se alineó el proxy HTTP local de nginx a `127.0.0.1:3001`
+- se recuperó Paperclip en `127.0.0.1:3002`
+- se alineó el proxy HTTP local de nginx a `127.0.0.1:3002`
 
 ## Evidencias
 
