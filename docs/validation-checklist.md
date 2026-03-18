@@ -8,7 +8,7 @@
 ## Configuración
 - [ ] `config/paperclip.config.example.json` usa loopback
 - [x] `publicBaseUrl` está definida para exposición pública
-- [ ] No hay secretos en el repo
+- [x] No hay secretos en el repo
 
 ## Red y proxy
 - [ ] nginx escucha en `80/443`

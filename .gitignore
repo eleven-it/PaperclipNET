@@ -5,6 +5,7 @@ runtime/
 # Secrets
 .env
 .env.*
+!config/.env.example
 secrets/
 keys/
 *.pem
