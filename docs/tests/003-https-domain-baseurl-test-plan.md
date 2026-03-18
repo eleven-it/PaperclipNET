@@ -2,7 +2,7 @@
 
 ## Estado
 
-Draft
+Completed
 
 ## Casos mínimos
 

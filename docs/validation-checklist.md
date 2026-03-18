@@ -7,7 +7,7 @@
 
 ## Configuración
 - [ ] `config/paperclip.config.example.json` usa loopback
-- [ ] `publicBaseUrl` está definida para exposición pública
+- [x] `publicBaseUrl` está definida para exposición pública
 - [ ] No hay secretos en el repo
 
 ## Red y proxy

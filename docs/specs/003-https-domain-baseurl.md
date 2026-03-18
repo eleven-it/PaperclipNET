@@ -2,7 +2,7 @@
 
 ## Estado
 
-Draft
+Done
 
 ## Objetivo
 
@@ -35,9 +35,16 @@ La instancia actual carece de `publicBaseUrl` definitiva y no debe considerarse 
 - existe test plan asociado
 - existe evidencia de coherencia entre proxy y base URL al implementar
 
-## Dependencia pendiente
+## Cierre de spec
 
-Esta spec no puede cerrarse completamente hasta que se defina el dominio/subdominio final del servicio.
+La spec se considera cerrada porque:
+
+- el dominio final quedó definido como `https://busone.estrategiasdenegocios.ar`
+- `auth.baseUrlMode` quedó en `explicit`
+- `auth.publicBaseUrl` quedó alineada al dominio final
+- el backend Paperclip quedó operativo en `0.0.0.0:3002` para la topología NAT real
+- la publicación por dominio responde correctamente
+- el acceso administrativo fue recuperado mediante bootstrap invite y validado por ingreso exitoso
 
 
 ## Implementación observada
